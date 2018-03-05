@@ -93,7 +93,7 @@ tables = [
      
     ['table_name2',
      [
-         ['row1', 'INT NOT NULL REFERENCES Clients(id)'],
+         ['row1', 'INT NOT NULL REFERENCES table_name1(id)'],
          ['row2', 'VARCHAR(50)'],
          ['row3', 'INT NOT NULL']
      ]
